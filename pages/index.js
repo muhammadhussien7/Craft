@@ -15,7 +15,7 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Spotless Hungry Crocodile</title>
+          <title>Craft</title>
         </Head>
         <Navbar
           link2="Products"
