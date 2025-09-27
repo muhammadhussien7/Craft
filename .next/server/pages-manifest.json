@@ -2,8 +2,17 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/shop": "pages/shop.js",
-  "/info-page": "pages/info-page.js",
-  "/contact-us": "pages/contact-us.js"
+  "/en/500": "pages/en/500.html",
+  "/en/shop": "pages/en/shop.html",
+  "/en/sign-in-page": "pages/en/sign-in-page.html",
+  "/en/contact-us": "pages/en/contact-us.html",
+  "/en/sign-up-page": "pages/en/sign-up-page.html",
+  "/en/404": "pages/en/404.html",
+  "/en": "pages/en.html",
+  "/en/blog": "pages/en/blog.html",
+  "/en/payment-getway": "pages/en/payment-getway.html",
+  "/en/about": "pages/en/about.html",
+  "/en/blog-page": "pages/en/blog-page.html",
+  "/en/info-page": "pages/en/info-page.html",
+  "/en/data-page": "pages/en/data-page.html"
 }

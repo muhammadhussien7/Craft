@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "locale": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/404",
+      "regex": "^/404(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/404(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/blog-page",
+      "regex": "^/blog\\-page(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog\\-page(?:/)?$"
+    },
+    {
+      "page": "/contact-us",
+      "regex": "^/contact\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact\\-us(?:/)?$"
+    },
+    {
+      "page": "/data-page",
+      "regex": "^/data\\-page(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/data\\-page(?:/)?$"
+    },
+    {
+      "page": "/info-page",
+      "regex": "^/info\\-page(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/info\\-page(?:/)?$"
+    },
+    {
+      "page": "/payment-getway",
+      "regex": "^/payment\\-getway(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/payment\\-getway(?:/)?$"
+    },
+    {
+      "page": "/shop",
+      "regex": "^/shop(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/shop(?:/)?$"
+    },
+    {
+      "page": "/sign-in-page",
+      "regex": "^/sign\\-in\\-page(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sign\\-in\\-page(?:/)?$"
+    },
+    {
+      "page": "/sign-up-page",
+      "regex": "^/sign\\-up\\-page(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sign\\-up\\-page(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "i18n": {
+    "locales": [
+      "en"
+    ],
+    "defaultLocale": "en"
+  },
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
