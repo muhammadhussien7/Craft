@@ -21,5 +21,10 @@
   },
   "engines": {
     "node": ">=18.x"
+  },
+  "overrides": {
+  "next-intl": {
+    "next": "^14.0.0"
   }
+}
 }
